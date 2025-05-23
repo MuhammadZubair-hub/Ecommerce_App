@@ -1,10 +1,12 @@
+import { NavigationContainer } from "@react-navigation/native"
 import { Text, View } from "react-native"
+import BottomNavigation from "./src/navigation/BottomNavigation"
 
 const App = ()=>{
   return(
-    <View>
-      <Text> E-commerce App</Text>
-    </View>
+    <NavigationContainer>
+      <BottomNavigation></BottomNavigation>
+    </NavigationContainer>
   )
 }
 
